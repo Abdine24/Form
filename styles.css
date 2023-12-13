@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:'Segoe UI', 'Helvetica Neue', sans-serif;
+}
+
+.box{
+    margin: 100px 50%;
+    width: 300px;
+    transform: translateX(-50%);
+}
+
+form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(172, 171, 171);
+    position: relative;
+}
+
+input{ 
+    padding: 10px 0 10px 10px;
+    width: 70%;
+}
+
+label{
+    width:30%;
+    font-size: 13px;
+    padding-left: 4px;
+}
+
+p{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+p:hover{
+    scale: 1.1;
+}
+
+
+
+
